@@ -13,10 +13,12 @@ Each file in this repo is a ready-to-use skill.
 1. Copy the skill file you want to `~/.claude/skills/`:
    ```bash
    cp commit.md ~/.claude/skills/
+   cp skill.md ~/.claude/skills/
    ```
-2. In Claude Code, invoke it:
+2. In Claude Code, invoke it by its filename (without `.md`):
    ```
    /commit
+   /skill
    ```
 
 That's it.
@@ -26,6 +28,7 @@ That's it.
 | Name | File | Description |
 |------|------|-------------|
 | commit | [commit.md](commit.md) | Stage, write, and create a well-formatted git commit |
+| skill | [skill.md](skill.md) | Load Robinhood Chain Testnet context (network params, contracts, deploy steps) into Claude before building on-chain |
 
 ## Adding a new skill
 
