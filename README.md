@@ -12,7 +12,6 @@ Sharing skills saves time and tokens. Instead of re-explaining context every ses
 
 | Skill | File | What it does |
 |-------|------|--------------|
-| **Commit** | [commit.md](commit.md) | Reviews your diff, writes a meaningful commit message, and creates the commit |
 | **Robinhood Chain** | [skill.md](skill.md) | Loads full Robinhood Chain Testnet context — network params, contract addresses, deploy steps — before you start building |
 
 ---
