@@ -1,37 +1,37 @@
 # Skill.md Archive
 
-A growing collection of Skill.md files for [Claude Code](https://claude.ai/claude-code) — gathered from real usage across different projects and AI tools.
+A free, open collection of lightweight skill files — ready to drop into any AI coding tool.
 
-## What are Skill.md files?
+Sharing skills saves time and tokens. Instead of re-explaining context every session, you load a skill once and get straight to work.
 
-Skills are custom slash commands for Claude Code. Drop a `.md` file into `~/.claude/skills/` and invoke it with `/skill-name` directly in your Claude Code session.
+> Skills work with any AI tool that supports custom instructions or slash commands — Claude Code, Cursor, Windsurf, and others.
 
-Each file in this repo is a ready-to-use skill.
-
-## How to use a skill
-
-1. Copy the skill file you want to `~/.claude/skills/`:
-   ```bash
-   cp commit.md ~/.claude/skills/
-   cp skill.md ~/.claude/skills/
-   ```
-2. In Claude Code, invoke it by its filename (without `.md`):
-   ```
-   /commit
-   /skill
-   ```
-
-That's it.
+---
 
 ## Skills
 
-| Name | File | Description |
-|------|------|-------------|
-| commit | [commit.md](commit.md) | Stage, write, and create a well-formatted git commit |
-| skill | [skill.md](skill.md) | Load Robinhood Chain Testnet context (network params, contracts, deploy steps) into Claude before building on-chain |
+| Skill | File | What it does |
+|-------|------|--------------|
+| **Commit** | [commit.md](commit.md) | Reviews your diff, writes a meaningful commit message, and creates the commit |
+| **Robinhood Chain** | [skill.md](skill.md) | Loads full Robinhood Chain Testnet context — network params, contract addresses, deploy steps — before you start building |
 
-## Adding a new skill
+---
 
-1. Create a new `.md` file at the root of this repo
-2. Add a row to the table above
-3. Open a PR or push directly if you're the maintainer
+## How to use (Claude Code)
+
+1. Copy the skill file to `~/.claude/skills/`:
+   ```bash
+   cp commit.md ~/.claude/skills/
+   ```
+2. Invoke it by filename (without `.md`):
+   ```
+   /commit
+   ```
+
+For other tools, paste the file contents into your system prompt or custom instructions.
+
+---
+
+## Contributing
+
+Have a skill worth sharing? Open a PR or drop the file in and update the table above.
