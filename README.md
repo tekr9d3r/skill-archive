@@ -16,21 +16,6 @@ Sharing skills saves time and tokens. Instead of re-explaining context every ses
 
 ---
 
-## How to use (Claude Code)
-
-1. Copy the skill file to `~/.claude/skills/`:
-   ```bash
-   cp commit.md ~/.claude/skills/
-   ```
-2. Invoke it by filename (without `.md`):
-   ```
-   /commit
-   ```
-
-For other tools, paste the file contents into your system prompt or custom instructions.
-
----
-
 ## Contributing
 
 Have a skill worth sharing? Open a PR or drop the file in and update the table above.
