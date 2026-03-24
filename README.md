@@ -12,7 +12,7 @@ Sharing skills saves time and tokens. Instead of re-explaining context every ses
 
 | Skill | File | What it does |
 |-------|------|--------------|
-| **Robinhood Chain** | [skill.md](skill.md) | Loads full Robinhood Chain Testnet context — network params, contract addresses, deploy steps — before you start building |
+| **Robinhood Chain** | [skill.md](skill.md) | Robinhood Chain Testnet context — network params, contract addresses, deploy steps — before you start building |
 
 ---
 
